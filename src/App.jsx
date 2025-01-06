@@ -8,6 +8,7 @@ import Room from "./components/room";
 import Banner from "./components/Banner";
 import Services from "./components/service";
 import Gallery from "./components/gallery";
+import Contact from "./components/contactUs";
 import "./App.css";
 
 function App() {
@@ -33,8 +34,12 @@ function App() {
       <div id="services" className="app-services" data-aos="fade-left">
         <Services />
       </div>
+  
       <div id="gallery" className="app-gallery" data-aos="zoom-in">
         <Gallery />
+      </div>
+      <div id="contact" className="app-contact" data-aos="fade-up">
+        <Contact />
       </div>
     </>
   );
