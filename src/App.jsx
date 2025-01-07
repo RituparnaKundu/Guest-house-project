@@ -10,6 +10,8 @@ import Services from "./components/service";
 import Gallery from "./components/gallery";
 import Contact from "./components/contactUs";
 import "./App.css";
+import Footer from "./components/footer.jsx";
+
 
 function App() {
   useEffect(() => {
@@ -41,6 +43,7 @@ function App() {
       <div id="contact" className="app-contact" data-aos="fade-up">
         <Contact />
       </div>
+      < Footer/>
     </>
   );
 }

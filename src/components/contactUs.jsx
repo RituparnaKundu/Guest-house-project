@@ -1,7 +1,10 @@
 import React from "react";
 import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import "./contact.css";
-
+import { TfiEmail } from "react-icons/tfi";
+import { FiPhoneCall } from "react-icons/fi";
+import { LuMapPinned } from "react-icons/lu";
+import { GrContactInfo } from "react-icons/gr";
 const Contact = () => {
   return (
     <div className="contact-section">
@@ -9,8 +12,8 @@ const Contact = () => {
       <div className="map-container">
         <iframe
           title="Kingsukh Guest House Location"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.46339955582!2d86.6962171154904!3d23.546128984692316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f57f09c9df75f1%3A0x3a6db75c31c5e12d!2sBaranti%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1670414673772!5m2!1sen!2sin"
-          width="100%"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7313.003491353379!2d86.85979!3d23.586332!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f6e3fdd3ff9ebb%3A0x517a57e3f93c1807!2sKingsukh%20Guest%20House!5e0!3m2!1sen!2sin!4v1736199269170!5m2!1sen!2sin"
+          width= "100%"
           height="600"
           style={{ border: 0 }}
           allowFullScreen=""
@@ -20,14 +23,14 @@ const Contact = () => {
         <div className="contact-content">
           {/* Contact Info Card */}
           <div className="contact-info">
-            <h3>Contact Info</h3>
+            <h3 ><a><GrContactInfo /></a>Contact Info</h3>
             <p>
-              Beside Barshal Water Tank, <br />
+            <a><LuMapPinned /></a>Beside Barshal Water Tank, <br />
               Manpur, Barhanti, <br />
               West Bengal 723156
             </p>
-            <p>Email: <a href="mailto:kkghosh0099@gmail.com">kkghosh0099@gmail.com</a></p>
-            <p>Phone: <a href="tel:+919007062180">+91 9007062180</a></p>
+            <p><a><TfiEmail  /></a>Email: <a href="mailto:kkghosh0099@gmail.com">kkghosh0099@gmail.com</a></p>
+            <p><a><FiPhoneCall /></a>Phone: <a href="tel:+919007062180">+91 9007062180</a></p>
             <div className="social-icons">
               <a href="https://facebook.com" target="_blank" rel="noreferrer"><FaFacebookF /></a>
               <a href="https://instagram.com" target="_blank" rel="noreferrer"><FaInstagram /></a>
