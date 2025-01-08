@@ -5,8 +5,8 @@
 }
 .about-section h2{
     font-family: "Montserrat" ,sans-serif;
-    font-size: 70px;
-    color: #86A788;
+    font-size: 40px;
+    color: #e2496d;
     margin-bottom:20px;
     position: relative;
 }
@@ -14,7 +14,7 @@
     content:"";
     width:50px;
     height:3px;
-    background-color: #C62300;
+    background-color: #ec4e2a;
     display:block;
     margin: 10px auto;
 }
@@ -32,7 +32,7 @@
 
 }
 .about-text h3{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     margin-bottom: 15px;
     color: #69247C;

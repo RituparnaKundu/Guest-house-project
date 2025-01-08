@@ -1,13 +1,13 @@
 .room-section{
     padding: 60px 30px;
-    background-color: #79D7BE;
+    background-color:#FFFDEC;
     text-align: center;
 }
 .section-title{
     font-size: 36px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
-    color: #7C444F;
+    color: #e2496d;
     margin-bottom: 42px;
     position: relative;
 }
