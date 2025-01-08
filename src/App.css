@@ -185,3 +185,14 @@
   opacity: 1;
   transform: scale(1);
 }
+
+.app-contact {
+  position: relative;
+  z-index: 100;  /* Add this line */
+}
+
+/* Footer Section */
+footer {
+  position: relative;
+  z-index: 50;  /* Add this line */
+}

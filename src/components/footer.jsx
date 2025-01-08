@@ -36,11 +36,22 @@ const Footer =() => {
                         <li>Wellness & Recreation</li>
                     </ul>
                 </div>
-            </div>
-            <div className="footer-contact">
+                <div className="footer-contact">
                 <h3>CONTACT US</h3>
+                <p>Address: Beside Barshal Water Tank, Manpur, Barhanti, West Bengal 723156</p>
+                <p>Email: <a href="mailto:kkghosh0099@gmail.com">kkghosh0099@gmail.com</a></p>
+                <p>Phone: <a href="tel:+919007062180">+91 9007062180</a></p>
+                <ul>
+                    <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i className="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i className="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
+                </ul>
+            </div>
+
 
             </div>
+            
         </div>
     )
 }
