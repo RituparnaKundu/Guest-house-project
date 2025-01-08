@@ -30,8 +30,10 @@ function App() {
       <div id="room" className="app-room" data-aos="fade-right">
         <Room />
       </div>
-      <div id="banner" className="app-banner" data-aos="fade-up">
+      <div id="banner" className="banner" data-aos="fade-up">
+      <div id="app-banner" className="app-banner" data-aos="fade-up">
         <Banner />
+      </div>
       </div>
       <div id="services" className="app-services" data-aos="fade-left">
         <Services />

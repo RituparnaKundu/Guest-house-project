@@ -9,7 +9,7 @@ const Room =()=> {
         <>
         <section className="room-section">
             <h2 className="section-title">OUR LIVING ROOM</h2>
-            <h3 className="section-heading">The Most Memorable Rest Time Starts Here.</h3>
+            <h3 className="section-heading-room">The Most Memorable Rest Time Starts Here.</h3>
             <div className="room-container">
                 <Card images={[small]} title="Cozy Haven Room" 
                 description="Escape to comfort in our Cozy Haven Room, a snug retreat designed for intimate relaxation.

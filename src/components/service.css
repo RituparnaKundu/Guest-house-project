@@ -6,9 +6,9 @@
   }
   
   .services-small-title {
-    font-size: 30px;
-    font-weight: bold;
-    color: #d80032;
+    font-size: 34px;
+    font-weight: bolder;
+    color:  #e2496d;
     margin-bottom: 10px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -17,7 +17,7 @@
   .services-title {
     font-size: 40px;
     font-weight: bold;
-    color: #333333;
+    color: #69247C;
     margin-bottom: 30px;
   }
   

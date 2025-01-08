@@ -1,28 +1,30 @@
 .room-section{
     padding: 60px 30px;
+   margin-top: -100px;
     background-color:#FFFDEC;
     text-align: center;
+   
 }
 .section-title{
-    font-size: 36px;
+    font-size: 34px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
     color: #e2496d;
-    margin-bottom: 42px;
     position: relative;
 }
-.section-title ::after{
+.section-title h2 ::after{
     content: "";
     width: 50px;
     height: 3px;
-    background:#d80032;
+    background-color:#d80032;
     display: block;
     margin: 10px auto 0;
 }
-.section-heading {
-    font-size: 50px;
+
+.section-heading-room{
+    font-size: 40px;
     font-weight: bold;
-    margin-bottom: 15px;
+    margin-bottom: 40px;
     color: #69247C;
 }
 .room-container{
@@ -33,7 +35,7 @@
 }
 
 .room-card {
-    background-color: beige;
+    background-color: rgb(212, 243, 245);
     border-radius: 12px;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -71,15 +73,15 @@
 }
 
 .room-title {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bolder;
-    color: #123524;
+    color: #113925;
     margin-top: 0px;
 
 }
 
 .room-description {
-    font-size: 23px;
+    font-size: 25px;
     color: #123524;
     margin-bottom: 20px;
 }
@@ -90,17 +92,17 @@
 }
 
 .room-price {
-    font-size: 25px;
+    font-size: 28px;
     margin-bottom: 10px;
 }
 
 .btn {
     display: inline-block;
     background-color: #F72C5B;
-    color: aliceblue;
-    border-radius: 20px;
+    color: rgb(231, 239, 246);
     padding: 10px 20px;
-    font-size: 14px;
+    border-radius: 24px;
+    font-size: 25px;
     font-weight: bold;
     text-decoration: none;
     transition: background-color 0.3s ease;

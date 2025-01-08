@@ -8,7 +8,7 @@
 
 .footer-wave {
     position: relative;
-    background-color: beige;
+    background-color:  #FFFDEC;
     margin-top: -1px;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .footer-content {
-    background-color: #02546800;
+    background-color: rgba(2,93,113,1);
     color: bisque;
     padding: 0px 80px;
     text-align: center;
@@ -45,23 +45,25 @@
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 30px;
-    border-radius: 15px;
+    /* border-radius: 15px; */
     position: relative;
-    top: -100px; 
+    /* top: -100px;  */
     z-index: 2;
-    max-height: 0px;
+    max-height: 200px;
 
 }
 
 .footer-intro {
-    font-size: 18px;
+    font-size: 30px;
     margin-bottom: 30px;
-    max-width: 600px;
+    max-width: 400px;
     margin-left: auto;
     margin-right: auto;
-    line-height: 1.8;
+    line-height: 1.5;
    position: relative;
-    top: -90px; /* Slight overlap with the wave */
+    top: -230px; /* Slight overlap with the wave */
+    left:30%;
+    text-align: center;
 }
 
 .footer-links, .footer-service, .footer-contact {
@@ -70,14 +72,19 @@
     max-width: 300px;
     text-align: left;
     position: relative;
-    top: -100px; /* Slight overlap with the wave */
+    top: -150px; /* Slight overlap with the wave */
+}
+.footer-links, .footer-service, .footer-contact p{
+    font-family:Garamond;
 }
 
-.footer-links h3, .footer-service h3, .footer-contact h3 {
+.footer-links h3, .footer-service h3 {
     margin-bottom: 15px;
-    font-size: 20px;
+    font-size: 32px;
     text-transform: uppercase;
-    color: #f4a261;
+    color:   #eace30;
+    position: relative;
+    left:-700px;
 }
 
 .footer-links ul, .footer-service ul {
@@ -87,25 +94,35 @@
 
 .footer-links li, .footer-service li {
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 28px;
     color: #ffffff;
     transition: color 0.3s;
+    position: relative;
+    left:-700px;
 }
 
 .footer-links li:hover, .footer-service li:hover {
-    color: #f4a261;
+    color:  #eace30;
+   
 }
 
 .footer-contact h3 {
-    font-size: 20px;
+    font-size: 32px;
     margin-bottom: 15px;
-    color: #f4a261;
+    color:  #eace30;
+    
 }
 
 .footer-contact p {
-    font-size: 16px;
+    font-size: 28px;
     color: #ffffff;
-    margin-bottom: 10px;
+    min-width: 400px;
+    
+}
+.footer-contact{
+    position: relative;
+    left:-100px;
+    
 }
 
 .footer-contact ul {

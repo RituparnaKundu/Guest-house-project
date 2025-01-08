@@ -38,7 +38,7 @@
   font-size: 48px;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #d80032;
+  color: #FF4500;
 }
 
 .app-hero p {
@@ -85,12 +85,21 @@
 
 /* Banner Section */
 .app-banner {
-  background: #fff4e6;
+  background:#a00028;
   border-radius: 8px;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
   max-width: 800px;
   margin: 40px auto;
-  padding: 20px 10px;
+  padding: 10px 20px;
+}
+.banner{
+ 
+  background: #FFFDEC;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+ max-height: 100%;
+ padding: 20px 0;
 }
 
 /* Services Section */

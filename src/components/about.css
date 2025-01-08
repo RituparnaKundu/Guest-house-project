@@ -38,15 +38,15 @@
     color: #69247C;
 }
 .about-text p{
-    font-size: 30px;
+    font-size: 28px;
     line-height: 1.4;
     margin-bottom: 20px;
     color: black;
 }
 .address p {
-    font-size: 40px;
-    color: #DA498D;
-    font-family:"Agu Display", serif;
+    font-size: 32px;
+    color: #e2496d;
+    font-family:Georgia, 'Times New Roman', Times, serif;
    
 }
 .about-image {
