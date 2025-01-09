@@ -8,6 +8,12 @@ import flower from '../assets/flower.jpg';
 import large from '../assets/large.jpg';
 import palash from '../assets/palash.webp';
 import room1 from '../assets/room1.jpg';
+import recep from '../assets/recep.jpg';
+import out from '../assets/out.jpg';
+import dam from '../assets/mithonDam.webp';
+
+
+
 import './gallery.css';
 const Gallery = () => {
   // Define gallery images with both original and thumbnail URLs
@@ -19,6 +25,19 @@ const Gallery = () => {
     {
       original: ayodhya,
       thumbnail: ayodhya,
+    },
+
+    {
+      original: dam,
+      thumbnail: dam,
+    },
+    {
+      original: out,
+      thumbnail: out,
+    },
+    {
+      original: recep,
+      thumbnail: recep,
     },
     {
       original: baranti,

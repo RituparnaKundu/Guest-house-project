@@ -17,12 +17,15 @@
     font-size: 30px;
     font-weight: bold;
     color:#2b2d42;
+    
    
 }
 .desktop-nav .logo img{
     height:200px;
     margin: -90px 0px;
     position: absolute;
+
+
 }
 .desktop-nav .menu-items {
     background: rgba(255,255,255,0.2);

@@ -117,6 +117,9 @@
     font-size: 28px;
     color: #ffffff;
     min-width: 400px;
+    margin: 10px 0px;
+ 
+ 
     
 }
 .footer-contact{
@@ -125,22 +128,30 @@
     
 }
 
-.footer-contact ul {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    gap: 10px;
-    justify-content: center;
-}
 
-.footer-contact li a {
+
+.footer-contact p a {
     font-size: 20px;
     color: #ffffff;
     transition: color 0.3s;
+   
 }
 
-.footer-contact li a:hover {
+.footer-contact p a:hover {
     color: #f4a261;
+}
+.footer-copyright {
+    text-align: center;
+    position: relative;
+    top: -25px; /* Slight overlap with the wave */
+    z-index: 2;
+    height: 0 ;
+   
+}
+.footer-copyright p {
+    margin: 0;
+    color: white;
+    font-size: 0.9em;
 }
 
 /* Responsive adjustments */

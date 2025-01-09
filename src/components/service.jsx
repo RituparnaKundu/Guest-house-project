@@ -19,7 +19,8 @@ const Services = () => {
 
   return (
     <section className="services-section">
-      <p className="services-small-title">SERVICES</p>
+      {/*  <p className="services-small-title">SERVICES</p> */}
+      <p className="section-heading">SERVICES</p>
       <h2 className="services-title">Strive Only For The Best.</h2>
       <div className="services-container">
         {services.map((service) => (

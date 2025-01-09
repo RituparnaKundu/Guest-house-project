@@ -8,7 +8,7 @@ const Room =()=> {
     return(
         <>
         <section className="room-section">
-            <h2 className="section-title">OUR LIVING ROOM</h2>
+            <h2 className="section-heading">OUR LIVING ROOM</h2>
             <h3 className="section-heading-room">The Most Memorable Rest Time Starts Here.</h3>
             <div className="room-container">
                 <Card images={[small]} title="Cozy Haven Room" 
